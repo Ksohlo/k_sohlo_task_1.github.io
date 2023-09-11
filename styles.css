@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root{
+    --deepBlue: rgb(0, 0, 94);
+    --white:rgb(255, 255, 255);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.navLink{
+    width: 100%;
+    height: 10vh;
+    background-color: var(--deepBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-size: 2rem;
+}
+.body{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+}
+#left{
+    width: 80%;
+    height: 100%;
+}
+#nameBody{
+    width: 500px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#slackDisplayImage{
+    width: 70px;
+    border-radius: 80px;
+    margin: 30px;
+}
+#track{
+    margin: 6px 0 0 137px;
+}
+#gitLink{
+    margin: 10px 0 0 137px;
+}
+#right{
+    margin-top: 60px;
+}
