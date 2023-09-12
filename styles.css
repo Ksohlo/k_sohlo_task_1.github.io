@@ -69,6 +69,6 @@
     #slackDisplayImage{
         width: 70px;
         border-radius: 80px;
-        margin: 0 30px 0 30px;
+        margin: 0 30px 0 10px;
     }
 }
